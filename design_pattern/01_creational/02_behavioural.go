@@ -32,9 +32,9 @@ func (b Builder) String() string {
 }
 
 func main() {
-	user := NewBuilder("ishank").
+	user := NewBuilder("test").
 		SetAge(25).
-		SetEmail("ishank@example.com").
+		SetEmail("test@example.com").
 		Build()
 
 	fmt.Println("built:", user)
